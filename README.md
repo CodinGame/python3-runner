@@ -1,6 +1,6 @@
 # python3-unittest-runner
 
-This runner works with a Python project or a virtualenv project.
+This runner can be use to execute unit tests using the `unittest` module.
 
 ## Example
 
