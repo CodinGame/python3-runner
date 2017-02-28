@@ -1,10 +1,9 @@
 #!/bin/bash
 
-if [ -f /project/target/bin/activate ]; then
-	source /project/target/bin/activate
-fi
-
-cp -r /project/answer/* /project/target/
 cd /project/target
 
+# Copy answer to the project
+cp -r /project/answer/* /project/target/
+
+# Run unit tests
 python -m unittest $@
