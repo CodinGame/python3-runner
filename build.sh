@@ -3,4 +3,6 @@
 cd /project/target
 
 # Install pip dependencies
-pip install -r requirements.txt
+if [ -f requirements.txt ]; then
+	pip install -r requirements.txt
+fi
