@@ -1,6 +1,6 @@
 # python3-unittest-runner
 
-This is a Python3 runner that executes tests based on the `unittest` module.
+This is a Python3 runner that executes tests based on the `unittest` module. If a `requirements.txt` file is detected at the root of the project, the dependencies will be automatically downloaded and installed.
 
 ## How to Use it
 
@@ -35,8 +35,3 @@ class StringTests(unittest.TestCase):
 In the markdown file, the unit test can be called using:
 
 `@[Test unittest: uppercase]({"stubs":["uppercase.py"], "command":"string_tests.StringTests.test_to_upper"})`
-
-
-## Compatibility
-
-If a Virtualenv is detected, the runner will use it to execute the project.
