@@ -8,7 +8,7 @@ In order to use this runner for your project, edit the `codingame.yml` file and 
 
     runner:
       name: codingame/python3-unittest-runner
-      version: 1.1-python-3.6
+      version: 1.1.0-python-3.6
 
 ## Example
 
