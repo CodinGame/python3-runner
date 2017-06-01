@@ -6,9 +6,7 @@ This is a Python3 runner that executes tests based on the `unittest` module. If 
 
 In order to use this runner for your project, edit the `codingame.yml` file and add the following lines to your project:
 
-    runner:
-      name: codingame/python3-unittest-runner
-      version: 1.1.0-python-3.6
+    runner: techio/python3-unittest-runner:1.1.0-python-3.6
 
 ## Example
 
